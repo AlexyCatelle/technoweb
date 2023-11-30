@@ -1,0 +1,7 @@
+@use '/src/sass/templates/_var.scss';
+
+@mixin medium {
+    @media screen and (min-width: var.$medium-bp) {
+      @content;
+    }
+  }

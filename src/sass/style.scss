@@ -1,0 +1,12 @@
+@use '/src/sass/bases/_normalize.css';
+@use '/src/sass/bases/_luciole.css';
+@use '/src/sass/bases/_global.scss';
+
+@use '/src/sass/atoms/_link.scss'; 
+
+@use '/src/sass/molecules/_header.scss';
+@use '/src/sass/molecules/_article-main.scss';
+@use '/src/sass/molecules/_footer.scss';
+
+@use '/src/sass/templates/_var.scss';
+@use '/src/sass/templates/_mixin.scss';

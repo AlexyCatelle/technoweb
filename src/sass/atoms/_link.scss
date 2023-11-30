@@ -1,0 +1,9 @@
+@use '/src/sass/templates/_var.scss';
+@use '/src/sass/templates/_mixin.scss';
+
+a{
+    color:var.$color2;
+    &:hover,&:focus{
+        text-decoration: underline;
+    }
+}

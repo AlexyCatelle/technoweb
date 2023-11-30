@@ -1,0 +1,11 @@
+@use '/src/sass/templates/_var.scss';
+@use '/src/sass/templates/_mixin.scss';
+
+footer{
+    background-color: var.$color3;
+    color:var.$color4;
+    height:2rem;
+    text-align: center;
+    align-content: center;
+    padding:.5rem;
+}

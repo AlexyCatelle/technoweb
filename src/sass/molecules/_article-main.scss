@@ -1,0 +1,41 @@
+@use '/src/sass/templates/_var.scss';
+@use '/src/sass/templates/_mixin.scss';
+
+.main__article {
+    width : 100%;
+   
+    display: flex;
+    background-color: var.$color5;
+    margin:1rem;
+    border :0.1rem solid var.$color1;
+    border-radius:0.5rem;
+    justify-content: center;
+    @include mixin.medium {
+        width:25%;
+    } 
+
+
+}
+
+.main__article__figure {
+
+    width:90%;
+    padding:.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+ 
+
+}
+.main__article__figure__img {
+
+    
+}
+.main__article__figure__desc {
+    text-align: center;
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+    
+}

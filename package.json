@@ -1,0 +1,18 @@
+{
+  "name": "s05e01-revisions-alexycatelle",
+  "version": "1.0.0",
+  "description": "- Réviser les saisons précédentes\r - Revoir des notions clés\r - Être dans de bonnes conditions pour aborder JavaScript 😱",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
+    "parcel": "^2.10.3"
+  }
+}
